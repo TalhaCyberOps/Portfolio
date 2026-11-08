@@ -1,10 +1,15 @@
-```html
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
+  
+  <!-- Added base tag to ensure relative links always work, even after username changes -->
+  <base href="https://talhacyberops.github.io/Portfolio/">
+
+  <!-- Updated CSP: Allow self, allow inline styles for JS canvas, keep it secure -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
+  
   <meta name="referrer" content="no-referrer">
   <meta name="color-scheme" content="dark">
   <meta name="theme-color" content="#05070d">
@@ -710,4 +715,3 @@
   </footer>
 </body>
 </html>
-```
