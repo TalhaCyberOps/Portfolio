@@ -1,12 +1,10 @@
+```html
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <!-- Balanced CSP: Allows inline styles (for JS), local fonts, and data URIs -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; connect-src 'self';">
-  
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
   <meta name="referrer" content="no-referrer">
   <meta name="color-scheme" content="dark">
   <meta name="theme-color" content="#05070d">
@@ -179,4 +177,537 @@
             interprets findings but does not make security decisions, and
             securing edge networks with cryptography and on-device intrusion
             detection. I also bring a governance perspective through
-            ISO/IEC 27001, risk assessment
+            ISO/IEC 27001, risk assessment and compliance documentation.
+          </p>
+
+          <ul class="principles">
+            <li><b>Evidence over assertion.</b> Every verdict traces back to a record.</li>
+            <li><b>Deterministic controls around probabilistic models.</b> Code validates what the model says.</li>
+            <li><b>Defence in depth.</b> An attack should have to beat every layer, not one.</li>
+            <li><b>Honest limits.</b> Known gaps are documented, not hidden.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERTISE -->
+    <section id="expertise" class="section">
+      <div class="container">
+        <header class="sec-head">
+          <p class="sec-num">02 / Expertise</p>
+          <h2>One core, three supporting strands.</h2>
+        </header>
+
+        <div class="cards cards-4">
+          <article class="card card-primary reveal">
+            <p class="card-tag">Core</p>
+            <h3>AI &amp; LLM Security</h3>
+            <ul>
+              <li>Prompt-injection defence and guardrail design</li>
+              <li>Secure RAG: retrieval gating, leak detection, output sanitisation</li>
+              <li>Constraining LLMs with schema and evidence validation</li>
+              <li>AI red-team test suites</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <p class="card-tag">Strand</p>
+            <h3>Detection &amp; Security Engineering</h3>
+            <ul>
+              <li>Sigma rules, correlation and behavioural analytics</li>
+              <li>MITRE ATT&amp;CK mapping and validation</li>
+              <li>Digital forensics, log analysis, IOC identification</li>
+              <li>Threat modelling and secure-by-design architecture</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <p class="card-tag">Strand</p>
+            <h3>GRC &amp; Information Security Risk</h3>
+            <ul>
+              <li>ISO/IEC 27001:2022 ISMS</li>
+              <li>Risk and vulnerability assessment</li>
+              <li>Compliance records and audit documentation</li>
+              <li>AI security and risk governance</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <p class="card-tag">Strand</p>
+            <h3>Secure IoT &amp; Wireless</h3>
+            <ul>
+              <li>LoRa mesh security on ESP32-S3</li>
+              <li>ECDH, AES, HMAC-SHA256 with mbedTLS</li>
+              <li>Wireless attack surfaces: interception, spoofing, protocol manipulation</li>
+              <li>Edge-AI intrusion detection</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <header class="sec-head">
+          <p class="sec-num">03 / Selected work</p>
+          <h2>Built, tested, documented.</h2>
+        </header>
+
+        <article class="project project-feature reveal">
+          <div class="project-main">
+            <p class="card-tag">Flagship · Open source · v1.0.1</p>
+            <h3>AEGISINTEL</h3>
+            <p class="project-sub">
+              Evidence-first SOC investigation and threat-intelligence platform.
+            </p>
+
+            <p>
+              A local-first platform where deterministic rules and statistics
+              produce findings and a local LLM only <em>interprets</em> them.
+              Three independent detection layers, an evidence-linked incident
+              model, validated ATT&amp;CK mapping, and human-approved,
+              simulated response.
+            </p>
+
+            <ul class="bullets">
+              <li>Sigma-subset rules, correlation rules and explainable behavioural analytics that record coverage gaps rather than inventing baselines</li>
+              <li>AI reports validated in code: schema, evidence IDs and ATT&amp;CK IDs; prompt-injection scanner; deterministic fallback</li>
+              <li>Argon2id authentication, server-side sessions, RBAC, two-person approval, SHA-256 hash-chained audit log</li>
+              <li>Hostile-input-safe ingestion with provenance; verified backups and audited restore</li>
+            </ul>
+
+            <ul class="tags">
+              <li>Python</li><li>Streamlit</li><li>SQLite</li><li>Ollama</li>
+              <li>ChromaDB</li><li>Sigma</li><li>MITRE ATT&amp;CK</li>
+            </ul>
+
+            <a class="link" href="https://github.com/TalhaCyberOps/AEGISINTEL" target="_blank" rel="noopener noreferrer">Repository ↗</a>
+          </div>
+
+          <dl class="project-metrics">
+            <div><dt>3</dt><dd>detection layers</dd></div>
+            <div><dt>290</dt><dd>tests passing</dd></div>
+            <div><dt>0</dt><dd>open Bandit issues</dd></div>
+            <div><dt>18k</dt><dd>events ingested in 3.6 s</dd></div>
+            <div class="wide">
+              <dt>378 s → 0.9 s</dt>
+              <dd>quadratic hotspot found by benchmarking and fixed</dd>
+            </div>
+          </dl>
+        </article>
+
+        <div class="cards cards-2">
+          <article class="project reveal">
+            <p class="card-tag">Team research · Final-year project</p>
+            <h3>AEGIS-LN</h3>
+            <p class="project-sub">AI-protected LoRa mesh communication system.</p>
+
+            <p>
+              A team-developed, decentralised, infrastructure-independent
+              LoRa mesh with AOMDV-inspired multipath routing, ECDH session
+              key exchange, AES-128-CBC encryption and HMAC-SHA256
+              authentication, plus autoencoder and deep-packet-inspection
+              anomaly detection with a real-time threat dashboard.
+            </p>
+
+            <ul class="tags">
+              <li>ESP32-S3</li><li>LoRa</li><li>C++</li><li>Python</li>
+              <li>mbedTLS</li><li>Autoencoders</li>
+            </ul>
+
+            <p class="note">
+              Source code is private. The related research paper is published
+              in IEEE IBCAST 2026.
+            </p>
+
+            <a class="link" href="https://github.com/TalhaCyberOps/AEGIS-LN" target="_blank" rel="noopener noreferrer">Project overview ↗</a>
+          </article>
+
+          <article class="project reveal">
+            <p class="card-tag">Open source · AI security</p>
+            <h3>Secure Policy RAG Assistant</h3>
+            <p class="project-sub">Prompt-injection-hardened, fully local RAG assistant.</p>
+
+            <p>
+              Answers employee questions from approved policy documents with
+              citations. Every request passes seven independent defence
+              layers, so an attack has to beat all of them.
+            </p>
+
+            <ul class="bullets">
+              <li>Decodes obfuscation (Unicode, leetspeak, Base64, ROT13, hex) before scanning</li>
+              <li>Relevance gate, canary-token leak detection, PII and link redaction</li>
+              <li>Hashed audit trail; red-team test suite and pip-audit in CI</li>
+            </ul>
+
+            <ul class="tags">
+              <li>Python</li><li>Ollama</li><li>ChromaDB</li>
+              <li>SQLite</li><li>Streamlit</li>
+            </ul>
+
+            <a class="link" href="https://github.com/TalhaCyberOps/AI-Secure-Policy-RAG-Assistant" target="_blank" rel="noopener noreferrer">Repository ↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research" class="section">
+      <div class="container two-col">
+        <header class="sec-head">
+          <p class="sec-num">04 / Research</p>
+          <h2>
+            Edge AI meets<br>
+            <span class="muted">secure networks.</span>
+          </h2>
+        </header>
+
+        <div class="stack">
+          <article class="card reveal">
+            <p class="card-tag">IEEE Xplore · IBCAST 2026 · Published</p>
+            <h3>
+              Hardware-Isolated Secure Mesh Communication with Edge-AI
+              Intrusion Detection over LoRa
+            </h3>
+            <p>
+              Co-authored research paper on secure LoRa mesh communication,
+              hardware-isolated security architecture, edge-AI intrusion
+              detection, and resilient communication systems. Published in
+              the 2026 23rd International Bhurban Conference on Applied
+              Sciences and Technology (IBCAST) and available on IEEE Xplore.
+            </p>
+            <a href="https://ieeexplore.ieee.org/document/11761558" target="_blank" rel="noopener noreferrer">View IEEE Xplore Paper ↗</a>
+          </article>
+
+          <article class="card reveal">
+            <p class="card-tag">International grant proposal · Under review</p>
+            <h3>
+              ML-driven intrusion detection and secure DTN LoRa for
+              disaster-resilient networks
+            </h3>
+            <p>
+              Contributor to a Pakistan–Sri Lanka research grant proposal
+              on machine-learning intrusion detection and secure
+              delay-tolerant LoRa communication.
+            </p>
+          </article>
+
+          <ul class="tags tags-lg reveal">
+            <li>AI security</li>
+            <li>Intrusion detection</li>
+            <li>LLM robustness</li>
+            <li>Secure protocol design</li>
+            <li>Wireless security</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="container">
+        <header class="sec-head">
+          <p class="sec-num">05 / Experience</p>
+          <h2>The journey so far.</h2>
+        </header>
+
+        <ol class="timeline">
+          <li class="reveal">
+            <div class="tl-meta">
+              <span class="when">Sep 2026 – Present</span>
+              <span class="where">Islamabad</span>
+            </div>
+            <div class="tl-body">
+              <h3>AI Engineer Intern <span class="org">· Tekdex Inc.</span></h3>
+              <p>
+                AI engineering with Python, AI/ML, LLM-based applications,
+                APIs and automation workflows.
+              </p>
+            </div>
+          </li>
+
+          <li class="reveal">
+            <div class="tl-meta">
+              <span class="when">Jul 2026 – Sep 2026</span>
+              <span class="where">Islamabad</span>
+            </div>
+            <div class="tl-body">
+              <h3>Trainee Engineer, Systems &amp; IoT <span class="org">· WaveLink Technologies</span></h3>
+              <ul>
+                <li>Satellite, UAV and mission-scenario simulation with Ansys/AGI Systems Tool Kit (STK)</li>
+                <li>RF link-budget, line-of-sight and sensor coverage analysis</li>
+                <li>GD32F embedded hardware, ST-Link debugging, CAN-based IoT communication</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="reveal">
+            <div class="tl-meta">
+              <span class="when">Jan 2026 – Jul 2026</span>
+              <span class="where">Islamabad</span>
+            </div>
+            <div class="tl-body">
+              <h3>Cyber Security R&amp;D Intern <span class="org">· Tech Quadrant</span></h3>
+              <ul>
+                <li>Researched wireless and embedded attack vectors: interception, interference, spoofing, protocol manipulation</li>
+                <li>Threat modelling, attack-surface analysis, vulnerability assessment and abuse-case documentation</li>
+                <li>Contributed to secure protocol design and cryptographic implementation</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="reveal">
+            <div class="tl-meta">
+              <span class="when">Feb 2026 – Apr 2026</span>
+              <span class="where">Rawalpindi</span>
+            </div>
+            <div class="tl-body">
+              <h3>Cyber Security Instructor &amp; Operations Lead <span class="org">· Yuni</span></h3>
+              <ul>
+                <li>Delivered hands-on cybersecurity training; mentored students and interns on security projects</li>
+                <li>Led day-to-day operations, internship programmes and training delivery</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="reveal">
+            <div class="tl-meta">
+              <span class="when">Aug 2025 – Sep 2025</span>
+              <span class="where">Remote</span>
+            </div>
+            <div class="tl-body">
+              <h3>Digital Forensics Intern <span class="org">· Cyborts</span></h3>
+              <ul>
+                <li>Evidence acquisition, forensic disk imaging, file-system and log analysis</li>
+                <li>IOC identification and forensic reports supporting incident response</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="reveal">
+            <div class="tl-meta">
+              <span class="when">Aug 2024 – Dec 2025</span>
+              <span class="where">Rawalpindi</span>
+            </div>
+            <div class="tl-body">
+              <h3>Operations &amp; Compliance Coordinator <span class="org">· TM Engineering</span></h3>
+              <ul>
+                <li>Managed compliance records, audit documentation and financial reporting</li>
+                <li>Coordinated with vendors and regulatory stakeholders while protecting confidential records</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="reveal">
+            <div class="tl-meta">
+              <span class="when">Sep 2022 – Sep 2023</span>
+              <span class="where">Remote</span>
+            </div>
+            <div class="tl-body">
+              <h3>Freelance Programmer <span class="org">· Fiverr / Upwork</span></h3>
+              <p>
+                Delivered Python and SQL database and GUI applications
+                end to end, managing clients, deadlines and revisions.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <div class="container">
+        <header class="sec-head">
+          <p class="sec-num">06 / Education</p>
+          <h2>Trained in cybersecurity, <span class="muted">with continued study.</span></h2>
+        </header>
+
+        <div class="cards cards-2">
+          <article class="card card-primary edu reveal">
+            <p class="card-tag">2026 – Present</p>
+            <h3>MS Cyber Security</h3>
+            <p class="org">Air University, Islamabad</p>
+          </article>
+
+          <article class="card card-primary edu reveal">
+            <p class="card-tag">2022 – 2026</p>
+            <h3>BS Cyber Security</h3>
+            <p class="org">Air University, Islamabad</p>
+            <p>
+              Final-year team project: AEGIS-LN, an AI-protected LoRa mesh
+              communication system associated with an IEEE IBCAST 2026 paper.
+            </p>
+          </article>
+        </div>
+
+        <ul class="edu-minor reveal">
+          <li>
+            <span>FSc Pre-Engineering</span>
+            <span>FBISE · 2019 – 2021</span>
+          </li>
+          <li>
+            <span>Matriculation, Computer Science</span>
+            <span>FBISE · 2017 – 2019</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <header class="sec-head">
+          <p class="sec-num">07 / Certifications</p>
+          <h2>Credentials.</h2>
+        </header>
+
+        <ul class="certs">
+          <li class="reveal">
+            <span class="cert-code">CAISR</span>
+            <span class="cert-name">Certified Artificial Intelligence Security &amp; Risk</span>
+            <span class="cert-meta">Red Team Leaders · 2026</span>
+          </li>
+
+          <li class="reveal">
+            <span class="cert-code">AI-DSS</span>
+            <span class="cert-name">Certified AI-Data Security Specialist</span>
+            <span class="cert-meta">Proofpoint · 2026</span>
+          </li>
+
+          <li class="reveal">
+            <span class="cert-code">CSEDP</span>
+            <span class="cert-name">Certified Social Engineering Defense Practitioner</span>
+            <span class="cert-meta">The SecOps Group · 2026</span>
+          </li>
+
+          <li class="reveal">
+            <span class="cert-code">ISO 27001</span>
+            <span class="cert-name">ISO/IEC 27001:2022 Information Security Management Systems</span>
+            <span class="cert-meta">SkillFront · 2025</span>
+          </li>
+
+          <li class="reveal">
+            <span class="cert-code">CCEP</span>
+            <span class="cert-name">Certified Cybersecurity Educator Professional</span>
+            <span class="cert-meta">Red Team Leaders · 2025</span>
+          </li>
+
+          <li class="reveal">
+            <span class="cert-code">ICIP</span>
+            <span class="cert-name">Introduction to Critical Infrastructure Protection</span>
+            <span class="cert-meta">OPSWAT Academy · 2025</span>
+          </li>
+        </ul>
+
+        <h3 class="sub-head">Toolkit</h3>
+
+        <div class="toolkit reveal">
+          <div>
+            <h4>Languages</h4>
+            <ul class="tags">
+              <li>Python</li><li>C++</li><li>SQL</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>AI / LLM</h4>
+            <ul class="tags">
+              <li>Ollama</li><li>RAG</li><li>ChromaDB</li>
+              <li>Guardrails</li><li>Autoencoders</li><li>Streamlit</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Security</h4>
+            <ul class="tags">
+              <li>MITRE ATT&amp;CK</li><li>Sigma</li><li>Threat modelling</li>
+              <li>DFIR</li><li>Vulnerability assessment</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Crypto &amp; protocols</h4>
+            <ul class="tags">
+              <li>ECDH</li><li>AES</li><li>HMAC-SHA256</li>
+              <li>Argon2id</li><li>mbedTLS</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Embedded &amp; RF</h4>
+            <ul class="tags">
+              <li>ESP32-S3</li><li>LoRa</li><li>GD32</li>
+              <li>CAN</li><li>Ansys/AGI STK</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Assurance</h4>
+            <ul class="tags">
+              <li>pytest</li><li>ruff</li><li>mypy</li>
+              <li>Bandit</li><li>pip-audit</li><li>GitHub Actions</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-contact">
+      <div class="container">
+        <div class="contact-card reveal">
+          <p class="sec-num">08 / Contact</p>
+          <h2>Let's secure what's next.</h2>
+
+          <p class="lead-sm">
+            Open to AI Security, Cybersecurity, Information Security and
+            GRC roles, and to research collaboration.
+          </p>
+
+          <div class="cta-row center">
+            <a
+              class="btn btn-primary"
+              id="email-link"
+              href="mailto:541talha541@gmail.com"
+            >Email me</a>
+
+            <a
+              class="btn btn-ghost"
+              href="https://www.linkedin.com/in/muhammadtalha-cybersecurity"
+              target="_blank"
+              rel="noopener noreferrer"
+            >LinkedIn ↗</a>
+
+            <a
+              class="btn btn-ghost"
+              href="https://github.com/TalhaCyberOps"
+              target="_blank"
+              rel="noopener noreferrer"
+            >GitHub ↗</a>
+          </div>
+
+          <noscript>
+            <p class="muted">Email: 541talha541 [at] gmail [dot] com</p>
+          </noscript>
+
+          <p class="loc">Based in Pakistan</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Muhammad Talha</p>
+      <p class="muted">
+        Static site. No trackers, cookies or third-party requests. Strict CSP.
+        <a href=".well-known/security.txt">security.txt</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
+```
