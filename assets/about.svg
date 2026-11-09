@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="About Muhammad Talha">
+<title>About Muhammad Talha</title>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#121a28"/></linearGradient><linearGradient id="gr" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2ee6c5"/><stop offset="1" stop-color="#4da3ff"/></linearGradient><radialGradient id="gl" cx="1" cy="0" r="0.8"><stop offset="0" stop-color="#4da3ff" stop-opacity="0.12"/><stop offset="1" stop-color="#4da3ff" stop-opacity="0"/></radialGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#94aac8" stroke-opacity="0.045"/></pattern></defs>
+<style>.s{font-family:'Segoe UI','Inter',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace}.tw{animation:tw 3.2s ease-in-out infinite}@keyframes tw{0%,100%{opacity:.35}50%{opacity:1}}@media (prefers-reduced-motion:reduce){.tw{animation:none}}</style>
+<rect width="1200" height="400" rx="16" fill="url(#bg)"/>
+<rect width="1200" height="400" rx="16" fill="url(#grid)"/>
+<rect width="1200" height="400" rx="16" fill="url(#gl)"/>
+<line x1="1037" y1="86" x2="1055" y2="70" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1037" y1="86" x2="1080" y2="37" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1037" y1="86" x2="1089" y2="60" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1037" y1="86" x2="1093" y2="26" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1172" y1="20" x2="1080" y2="37" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1172" y1="20" x2="1093" y2="26" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1172" y1="20" x2="1115" y2="44" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1055" y1="70" x2="1080" y2="37" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1055" y1="70" x2="1089" y2="60" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1055" y1="70" x2="1093" y2="26" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1055" y1="70" x2="1115" y2="44" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1080" y1="37" x2="1089" y2="60" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1080" y1="37" x2="1093" y2="26" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1080" y1="37" x2="1115" y2="44" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1089" y1="60" x2="1093" y2="26" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1089" y1="60" x2="1115" y2="44" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1093" y1="26" x2="1115" y2="44" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<circle cx="1037" cy="86" r="2.6" fill="#2ee6c5" class="tw" style="animation-delay:0.0s"/>
+<circle cx="1172" cy="20" r="1.6" fill="#aac8e1" fill-opacity=".5"/>
+<circle cx="1055" cy="70" r="1.6" fill="#aac8e1" fill-opacity=".5"/>
+<circle cx="1080" cy="37" r="2.6" fill="#2ee6c5" class="tw" style="animation-delay:1.2s"/>
+<circle cx="1089" cy="60" r="1.6" fill="#aac8e1" fill-opacity=".5"/>
+<circle cx="1093" cy="26" r="1.6" fill="#aac8e1" fill-opacity=".5"/>
+<circle cx="1115" cy="44" r="2.6" fill="#2ee6c5" class="tw" style="animation-delay:2.4s"/>
+<rect x=".5" y=".5" width="1199" height="399" rx="15.5" fill="none" stroke="#94aac8" stroke-opacity=".16"/>
+<text x="48" y="60" class="m" font-size="12.5" fill="#2ee6c5" letter-spacing="2.2">01 / ABOUT</text>
+<line x1="158" y1="56" x2="214" y2="56" stroke="#2ee6c5" stroke-opacity=".5"/>
+<text x="48" y="112" class="s" font-size="38" fill="#e7edf6" font-weight="700">Cybersecurity first.</text>
+<text x="48" y="156" class="s" font-size="38" fill="#8a97ab" font-weight="700">AI is where I apply it.</text>
+<text x="48" y="204.0" class="s" font-size="16.5" fill="#b9c4d3">I hold a BS in Cyber Security from Air University, Islamabad, and</text>
+<text x="48" y="229.6" class="s" font-size="16.5" fill="#b9c4d3">I'm completing an MS in Cyber Security there while working as an</text>
+<text x="48" y="255.2" class="s" font-size="16.5" fill="#b9c4d3">AI Engineer. I harden LLM applications against prompt injection,</text>
+<text x="48" y="280.7" class="s" font-size="16.5" fill="#b9c4d3">build detection pipelines where AI interprets findings but never</text>
+<text x="48" y="306.3" class="s" font-size="16.5" fill="#b9c4d3">decides them, and secure edge networks with cryptography and</text>
+<text x="48" y="331.9" class="s" font-size="16.5" fill="#b9c4d3">on-device intrusion detection.</text>
+<rect x="660" y="44" width="500" height="312" rx="12" fill="#0d1117" fill-opacity=".9" stroke="#94aac8" stroke-opacity=".22"/>
+<line x1="660" y1="82" x2="1160" y2="82" stroke="#94aac8" stroke-opacity=".14"/>
+<circle cx="680" cy="63" r="5.5" fill="#ff5f57"/>
+<circle cx="698" cy="63" r="5.5" fill="#febc2e"/>
+<circle cx="716" cy="63" r="5.5" fill="#28c840"/>
+<text x="742" y="67.5" class="m" font-size="12" fill="#5b6779">talha@secops: ~/status</text>
+<text x="682" y="114" class="m" font-size="13" fill="#2ee6c5">Role</text>
+<text x="788" y="114" class="m" font-size="13" fill="#b9c6d6">AI Engineer Intern, Tekdex Inc.</text>
+<text x="682" y="146" class="m" font-size="13" fill="#2ee6c5">Education</text>
+<text x="788" y="146" class="m" font-size="13" fill="#b9c6d6">MS Cyber Security (in progress)</text>
+<text x="682" y="178" class="m" font-size="13" fill="#2ee6c5">Degree</text>
+<text x="788" y="178" class="m" font-size="13" fill="#b9c6d6">BS Cyber Security, Air University</text>
+<text x="682" y="210" class="m" font-size="13" fill="#2ee6c5">Research</text>
+<text x="788" y="210" class="m" font-size="13" fill="#b9c6d6">IEEE IBCAST 2026: Edge-AI IDS over LoRa</text>
+<text x="682" y="242" class="m" font-size="13" fill="#2ee6c5">Flagship</text>
+<text x="788" y="242" class="m" font-size="13" fill="#b9c6d6">AEGISINTEL v1.0.1: 290 tests passing</text>
+<text x="682" y="274" class="m" font-size="13" fill="#2ee6c5">Focus</text>
+<text x="788" y="274" class="m" font-size="13" fill="#b9c6d6">AI security, detection, GRC, IoT</text>
+<text x="682" y="306" class="m" font-size="13" fill="#2ee6c5">Status</text>
+<circle cx="792" cy="301.5" r="4" fill="#28c840" class="tw"/>
+<text x="804" y="306" class="m" font-size="13" fill="#b9c6d6">Open to AI Security, Cybersecurity,</text>
+<text x="804" y="327" class="m" font-size="13" fill="#b9c6d6">GRC and Information Security roles</text>
+</svg>

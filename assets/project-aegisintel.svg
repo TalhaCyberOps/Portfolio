@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="AEGISINTEL: evidence-first SOC investigation platform">
+<title>AEGISINTEL: evidence-first SOC investigation platform</title>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#121a28"/></linearGradient><linearGradient id="gr" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2ee6c5"/><stop offset="1" stop-color="#4da3ff"/></linearGradient><radialGradient id="gl" cx="1" cy="0" r="0.8"><stop offset="0" stop-color="#4da3ff" stop-opacity="0.12"/><stop offset="1" stop-color="#4da3ff" stop-opacity="0"/></radialGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#94aac8" stroke-opacity="0.045"/></pattern></defs>
+<style>.s{font-family:'Segoe UI','Inter',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace}.tw{animation:tw 3.2s ease-in-out infinite}@keyframes tw{0%,100%{opacity:.35}50%{opacity:1}}@media (prefers-reduced-motion:reduce){.tw{animation:none}}</style>
+<rect width="1200" height="400" rx="16" fill="url(#bg)"/>
+<rect width="1200" height="400" rx="16" fill="url(#grid)"/>
+<rect width="1200" height="400" rx="16" fill="url(#gl)"/>
+<line x1="1144" y1="55" x2="1125" y2="60" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1144" y1="55" x2="1086" y2="19" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1144" y1="55" x2="1178" y2="78" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1144" y1="55" x2="1141" y2="32" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1144" y1="55" x2="1031" y2="50" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1144" y1="55" x2="1055" y2="50" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1125" y1="60" x2="1086" y2="19" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1125" y1="60" x2="1178" y2="78" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1125" y1="60" x2="1141" y2="32" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1125" y1="60" x2="1031" y2="50" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1125" y1="60" x2="1055" y2="50" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1086" y1="19" x2="1141" y2="32" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1086" y1="19" x2="1031" y2="50" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1086" y1="19" x2="1055" y2="50" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1178" y1="78" x2="1141" y2="32" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1141" y1="32" x2="1055" y2="50" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1031" y1="50" x2="1055" y2="50" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<circle cx="1144" cy="55" r="2.6" fill="#2ee6c5" class="tw" style="animation-delay:0.0s"/>
+<circle cx="1125" cy="60" r="1.6" fill="#aac8e1" fill-opacity=".5"/>
+<circle cx="1086" cy="19" r="1.6" fill="#aac8e1" fill-opacity=".5"/>
+<circle cx="1178" cy="78" r="2.6" fill="#2ee6c5" class="tw" style="animation-delay:1.2s"/>
+<circle cx="1141" cy="32" r="1.6" fill="#aac8e1" fill-opacity=".5"/>
+<circle cx="1031" cy="50" r="1.6" fill="#aac8e1" fill-opacity=".5"/>
+<circle cx="1055" cy="50" r="2.6" fill="#2ee6c5" class="tw" style="animation-delay:2.4s"/>
+<rect x=".5" y=".5" width="1199" height="399" rx="15.5" fill="none" stroke="#2ee6c5" stroke-opacity=".35"/>
+<text x="48" y="60" class="m" font-size="12.5" fill="#2ee6c5" letter-spacing="2.2">02 / SELECTED WORK</text>
+<line x1="237" y1="56" x2="293" y2="56" stroke="#2ee6c5" stroke-opacity=".5"/>
+<text x="48" y="92" class="m" font-size="12" fill="#2ee6c5" letter-spacing="1.5">FLAGSHIP · OPEN SOURCE · V1.0.1</text>
+<text x="48" y="134" class="s" font-size="34" fill="#e7edf6" font-weight="700">AEGISINTEL</text>
+<text x="48" y="164" class="s" font-size="16.5" fill="#e7edf6" font-weight="500">Evidence-first SOC investigation and threat-intelligence platform.</text>
+<rect x="48" y="193" width="6" height="6" rx="1.5" fill="#2ee6c5" fill-opacity=".8"/>
+<text x="66" y="202.0" class="s" font-size="15" fill="#aab6c6">Sigma-subset rules, correlation and explainable behavioral analytics</text>
+<rect x="48" y="224.25" width="6" height="6" rx="1.5" fill="#2ee6c5" fill-opacity=".8"/>
+<text x="66" y="233.2" class="s" font-size="15" fill="#aab6c6">AI reports validated in code: schema, evidence IDs and ATT&amp;CK IDs</text>
+<rect x="48" y="255.5" width="6" height="6" rx="1.5" fill="#2ee6c5" fill-opacity=".8"/>
+<text x="66" y="264.5" class="s" font-size="15" fill="#aab6c6">Argon2id auth, RBAC, two-person approval, hash-chained audit log</text>
+<rect x="48" y="301.75" width="63" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="57" y="318.25" class="m" font-size="12" fill="#a9c4d9">Python</text>
+<rect x="119" y="301.75" width="85" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="128" y="318.25" class="m" font-size="12" fill="#a9c4d9">Streamlit</text>
+<rect x="212" y="301.75" width="63" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="221" y="318.25" class="m" font-size="12" fill="#a9c4d9">SQLite</text>
+<rect x="282" y="301.75" width="63" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="291" y="318.25" class="m" font-size="12" fill="#a9c4d9">Ollama</text>
+<rect x="353" y="301.75" width="55" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="362" y="318.25" class="m" font-size="12" fill="#a9c4d9">Sigma</text>
+<rect x="416" y="301.75" width="107" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="425" y="318.25" class="m" font-size="12" fill="#a9c4d9">MITRE ATT&amp;CK</text>
+<text x="48" y="372" class="m" font-size="13.5" fill="#2ee6c5">View repository →</text>
+<rect x="760" y="96" width="194" height="98" rx="12" fill="#0d1117" fill-opacity=".6" stroke="#94aac8" stroke-opacity=".14"/>
+<text x="778" y="146" class="s" font-size="30" fill="#e7edf6" font-weight="700">3</text>
+<text x="778" y="172" class="s" font-size="13" fill="#8a97ab">detection layers</text>
+<rect x="966" y="96" width="194" height="98" rx="12" fill="#0d1117" fill-opacity=".6" stroke="#94aac8" stroke-opacity=".14"/>
+<text x="984" y="146" class="s" font-size="30" fill="#e7edf6" font-weight="700">290</text>
+<text x="984" y="172" class="s" font-size="13" fill="#8a97ab">tests passing</text>
+<rect x="760" y="208" width="194" height="98" rx="12" fill="#0d1117" fill-opacity=".6" stroke="#94aac8" stroke-opacity=".14"/>
+<text x="778" y="258" class="s" font-size="30" fill="#e7edf6" font-weight="700">0</text>
+<text x="778" y="284" class="s" font-size="13" fill="#8a97ab">open Bandit issues</text>
+<rect x="966" y="208" width="194" height="98" rx="12" fill="#0d1117" fill-opacity=".6" stroke="#94aac8" stroke-opacity=".14"/>
+<text x="984" y="258" class="s" font-size="30" fill="#e7edf6" font-weight="700">18k</text>
+<text x="984" y="284" class="s" font-size="13" fill="#8a97ab">events in 3.6 s</text>
+<rect x="760" y="320" width="400" height="48" rx="12" fill="#0d1117" fill-opacity=".6" stroke="#94aac8" stroke-opacity=".14"/>
+<text x="778" y="350" class="s" font-size="16" fill="#e7edf6" font-weight="700">378 s → 0.9 s</text>
+<text x="900" y="350" class="s" font-size="13" fill="#8a97ab">quadratic hotspot found and fixed</text>
+</svg>

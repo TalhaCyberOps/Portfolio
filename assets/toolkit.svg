@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="Toolkit">
+<title>Toolkit</title>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#121a28"/></linearGradient><linearGradient id="gr" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2ee6c5"/><stop offset="1" stop-color="#4da3ff"/></linearGradient><radialGradient id="gl" cx="1" cy="0" r="0.8"><stop offset="0" stop-color="#4da3ff" stop-opacity="0.12"/><stop offset="1" stop-color="#4da3ff" stop-opacity="0"/></radialGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#94aac8" stroke-opacity="0.045"/></pattern></defs>
+<style>.s{font-family:'Segoe UI','Inter',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace}.tw{animation:tw 3.2s ease-in-out infinite}@keyframes tw{0%,100%{opacity:.35}50%{opacity:1}}@media (prefers-reduced-motion:reduce){.tw{animation:none}}</style>
+<rect width="1200" height="330" rx="16" fill="url(#bg)"/>
+<rect width="1200" height="330" rx="16" fill="url(#grid)"/>
+<rect width="1200" height="330" rx="16" fill="url(#gl)"/>
+<line x1="1111" y1="42" x2="1159" y2="80" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1111" y1="42" x2="1179" y2="52" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1111" y1="42" x2="1045" y2="20" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1111" y1="42" x2="1097" y2="61" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1111" y1="42" x2="1174" y2="43" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1111" y1="42" x2="1074" y2="48" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1159" y1="80" x2="1179" y2="52" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1159" y1="80" x2="1097" y2="61" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1159" y1="80" x2="1174" y2="43" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1159" y1="80" x2="1074" y2="48" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1179" y1="52" x2="1097" y2="61" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1179" y1="52" x2="1174" y2="43" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1179" y1="52" x2="1074" y2="48" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1045" y1="20" x2="1097" y2="61" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1045" y1="20" x2="1074" y2="48" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1097" y1="61" x2="1174" y2="43" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1097" y1="61" x2="1074" y2="48" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<line x1="1174" y1="43" x2="1074" y2="48" stroke="#2ee6c5" stroke-opacity=".18" stroke-width=".8"/>
+<circle cx="1111" cy="42" r="2.6" fill="#2ee6c5" class="tw" style="animation-delay:0.0s"/>
+<circle cx="1159" cy="80" r="1.6" fill="#aac8e1" fill-opacity=".5"/>
+<circle cx="1179" cy="52" r="1.6" fill="#aac8e1" fill-opacity=".5"/>
+<circle cx="1045" cy="20" r="2.6" fill="#2ee6c5" class="tw" style="animation-delay:1.2s"/>
+<circle cx="1097" cy="61" r="1.6" fill="#aac8e1" fill-opacity=".5"/>
+<circle cx="1174" cy="43" r="1.6" fill="#aac8e1" fill-opacity=".5"/>
+<circle cx="1074" cy="48" r="2.6" fill="#2ee6c5" class="tw" style="animation-delay:2.4s"/>
+<rect x=".5" y=".5" width="1199" height="329" rx="15.5" fill="none" stroke="#94aac8" stroke-opacity=".16"/>
+<text x="48" y="60" class="m" font-size="12.5" fill="#2ee6c5" letter-spacing="2.2">06 / TOOLKIT</text>
+<line x1="177" y1="56" x2="233" y2="56" stroke="#2ee6c5" stroke-opacity=".5"/>
+<rect x="48" y="88" width="356" height="98" rx="12" fill="#0d1117" fill-opacity=".5" stroke="#94aac8" stroke-opacity=".14"/>
+<text x="66" y="116" class="m" font-size="11.5" fill="#8a97ab" letter-spacing="1.5">LANGUAGES</text>
+<rect x="66" y="130" width="63" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="75" y="146.5" class="m" font-size="12" fill="#a9c4d9">Python</text>
+<rect x="137" y="130" width="40" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="146" y="146.5" class="m" font-size="12" fill="#a9c4d9">C++</text>
+<rect x="185" y="130" width="40" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="194" y="146.5" class="m" font-size="12" fill="#a9c4d9">SQL</text>
+<rect x="420" y="88" width="356" height="98" rx="12" fill="#0d1117" fill-opacity=".5" stroke="#94aac8" stroke-opacity=".14"/>
+<text x="438" y="116" class="m" font-size="11.5" fill="#8a97ab" letter-spacing="1.5">AI / LLM</text>
+<rect x="438" y="130" width="63" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="447" y="146.5" class="m" font-size="12" fill="#a9c4d9">Ollama</text>
+<rect x="509" y="130" width="40" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="518" y="146.5" class="m" font-size="12" fill="#a9c4d9">RAG</text>
+<rect x="557" y="130" width="78" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="566" y="146.5" class="m" font-size="12" fill="#a9c4d9">ChromaDB</text>
+<rect x="642" y="130" width="92" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="651" y="146.5" class="m" font-size="12" fill="#a9c4d9">Guardrails</text>
+<rect x="438" y="162" width="63" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="447" y="178.5" class="m" font-size="12" fill="#a9c4d9">TFLite</text>
+<rect x="792" y="88" width="356" height="98" rx="12" fill="#0d1117" fill-opacity=".5" stroke="#94aac8" stroke-opacity=".14"/>
+<text x="810" y="116" class="m" font-size="11.5" fill="#8a97ab" letter-spacing="1.5">SECURITY</text>
+<rect x="810" y="130" width="107" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="819" y="146.5" class="m" font-size="12" fill="#a9c4d9">MITRE ATT&amp;CK</text>
+<rect x="925" y="130" width="55" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="934" y="146.5" class="m" font-size="12" fill="#a9c4d9">Sigma</text>
+<rect x="988" y="130" width="130" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="997" y="146.5" class="m" font-size="12" fill="#a9c4d9">Threat modeling</text>
+<rect x="810" y="162" width="48" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="819" y="178.5" class="m" font-size="12" fill="#a9c4d9">DFIR</text>
+<rect x="48" y="200" width="356" height="98" rx="12" fill="#0d1117" fill-opacity=".5" stroke="#94aac8" stroke-opacity=".14"/>
+<text x="66" y="228" class="m" font-size="11.5" fill="#8a97ab" letter-spacing="1.5">CRYPTO</text>
+<rect x="66" y="242" width="48" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="75" y="258.5" class="m" font-size="12" fill="#a9c4d9">ECDH</text>
+<rect x="122" y="242" width="40" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="131" y="258.5" class="m" font-size="12" fill="#a9c4d9">AES</text>
+<rect x="170" y="242" width="100" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="179" y="258.5" class="m" font-size="12" fill="#a9c4d9">HMAC-SHA256</text>
+<rect x="278" y="242" width="78" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="287" y="258.5" class="m" font-size="12" fill="#a9c4d9">Argon2id</text>
+<rect x="66" y="274" width="70" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="75" y="290.5" class="m" font-size="12" fill="#a9c4d9">mbedTLS</text>
+<rect x="420" y="200" width="356" height="98" rx="12" fill="#0d1117" fill-opacity=".5" stroke="#94aac8" stroke-opacity=".14"/>
+<text x="438" y="228" class="m" font-size="11.5" fill="#8a97ab" letter-spacing="1.5">EMBEDDED &amp; RF</text>
+<rect x="438" y="242" width="78" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="447" y="258.5" class="m" font-size="12" fill="#a9c4d9">ESP32-S3</text>
+<rect x="524" y="242" width="48" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="533" y="258.5" class="m" font-size="12" fill="#a9c4d9">LoRa</text>
+<rect x="579" y="242" width="48" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="588" y="258.5" class="m" font-size="12" fill="#a9c4d9">GD32</text>
+<rect x="635" y="242" width="40" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="644" y="258.5" class="m" font-size="12" fill="#a9c4d9">CAN</text>
+<rect x="683" y="242" width="70" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="692" y="258.5" class="m" font-size="12" fill="#a9c4d9">AGI STK</text>
+<rect x="792" y="200" width="356" height="98" rx="12" fill="#0d1117" fill-opacity=".5" stroke="#94aac8" stroke-opacity=".14"/>
+<text x="810" y="228" class="m" font-size="11.5" fill="#8a97ab" letter-spacing="1.5">ASSURANCE</text>
+<rect x="810" y="242" width="63" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="819" y="258.5" class="m" font-size="12" fill="#a9c4d9">pytest</text>
+<rect x="881" y="242" width="48" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="890" y="258.5" class="m" font-size="12" fill="#a9c4d9">ruff</text>
+<rect x="936" y="242" width="48" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="945" y="258.5" class="m" font-size="12" fill="#a9c4d9">mypy</text>
+<rect x="992" y="242" width="63" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="1001" y="258.5" class="m" font-size="12" fill="#a9c4d9">Bandit</text>
+<rect x="810" y="274" width="85" height="24" rx="6" fill="#4da3ff" fill-opacity=".06" stroke="#94aac8" stroke-opacity=".18"/>
+<text x="819" y="290.5" class="m" font-size="12" fill="#a9c4d9">pip-audit</text>
+</svg>
