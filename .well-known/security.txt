@@ -1,4 +1,4 @@
 Contact: mailto:541talha541@gmail.com
 Expires: 2027-10-30T00:00:00.000Z
 Preferred-Languages: en
-Canonical: https://tm-541.github.io/Portfolio/.well-known/security.txt
+Canonical: https://talhacyberops.github.io/Portfolio/.well-known/security.txt
